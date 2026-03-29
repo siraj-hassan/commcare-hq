@@ -1,5 +1,5 @@
 CommCare HQ
-===========
+============
 
 CommCare HQ is a web application for building complex, customizable, frontline worker solutions.
 
