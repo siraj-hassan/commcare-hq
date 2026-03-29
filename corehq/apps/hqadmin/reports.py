@@ -334,7 +334,7 @@ class DeployHistoryReport(GetParamsMixin, AdminReport):
     def _shorten_and_hyperlink_commit(self, commit_sha):
         if commit_sha:
             return format_html(
-                '<a href="https://github.com/dimagi/commcare-hq/commit/{full_sha}">{abbrev_sha}</a>',
+                '<a href="https://github.com/siraj-hassan/commcare-hq/commit/{full_sha}">{abbrev_sha}</a>',
                 full_sha=commit_sha,
                 abbrev_sha=commit_sha[:7]
             )
